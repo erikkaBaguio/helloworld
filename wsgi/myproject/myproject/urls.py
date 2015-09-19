@@ -19,5 +19,5 @@ from helloworldApp.views import display
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
-    url(r' helloworldApp/$', 'display')
+    url(r'^helloworldApp/$', display),
 ]
